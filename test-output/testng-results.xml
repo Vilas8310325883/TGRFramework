@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-26T15:32:40 IST" name="Suite" finished-at="2025-02-26T15:34:02 IST" duration-ms="82342">
+    <groups>
+      <group name="Sanity1">
+        <method signature="TC003_LoginPageTestDDT.LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" name="LoginTestDDT" class="testCases.TC003_LoginPageTestDDT"/>
+      </group> <!-- Sanity1 -->
+    </groups>
+    <test started-at="2025-02-26T15:32:40 IST" name="EdgeTest" finished-at="2025-02-26T15:34:02 IST" duration-ms="82342">
+      <class name="testCases.TC003_LoginPageTestDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:32:41 IST" name="setup" finished-at="2025-02-26T15:33:05 IST" duration-ms="24824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:09 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:17 IST" duration-ms="7957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation of getting validation message while given empty value for email field]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This field is required!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:17 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:25 IST" duration-ms="8159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation of getting validation message while given empty value for password field]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vilas.hj@codilar.com ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This field is required!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:25 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:33 IST" duration-ms="8082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation of getting validation message while given invalid email format]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vilas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Incorrect email format!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:33 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:42 IST" duration-ms="8377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valaidation of getting validation message while given non existing account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aa@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[The customer does not exist in the website.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:42 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:50 IST" duration-ms="8120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation of getting validation message while given wrong password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vilas.hj@codilar.com ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:50 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:34:01 IST" duration-ms="10932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation of getting success message while given valid credentials]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vilas.hj@codilar.com ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully logged in!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:34:01 IST" name="teardown" finished-at="2025-02-26T15:34:02 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_LoginPageTestDDT -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

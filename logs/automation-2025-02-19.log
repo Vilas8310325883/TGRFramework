@@ -1,0 +1,56 @@
+13:21:11.$11 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+13:21:11.$11 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+13:21:11.$11 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+13:21:16.$16 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+13:21:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+13:21:23.$23 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+16:59:05.$05 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+16:59:06.$06 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+16:59:06.$06 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+16:59:11.$11 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+16:59:12.$12 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+16:59:17.$17 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:02:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:02:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:02:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:02:09.$09 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:02:09.$09 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:02:15.$15 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:07:02.$02 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:07:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:07:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:07:08.$08 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:07:08.$08 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:07:14.$14 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:13:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:13:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:13:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:13:28.$28 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:13:29.$29 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:13:34.$34 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:20:12.$12 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked Country Dropdown
+17:20:12.$12 [main] INFO  testCases.TC003_LoginPageTestDDT - Selected the Country
+17:20:12.$12 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked on the Checkbox
+17:21:15.$15 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:23:24.$24 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked Country Dropdown
+17:23:25.$25 [main] INFO  testCases.TC003_LoginPageTestDDT - Selected the Country
+17:23:25.$25 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked on the Checkbox
+17:23:33.$33 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:23:33.$33 [main] INFO  testCases.TC003_LoginPageTestDDT - Setting Login Details
+17:23:41.$41 [main] INFO  testCases.TC003_LoginPageTestDDT - *** finished TC003 login testing DDT ***
+17:23:41.$41 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:23:41.$41 [main] INFO  testCases.TC003_LoginPageTestDDT - Setting Login Details
+17:23:49.$49 [main] INFO  testCases.TC003_LoginPageTestDDT - *** finished TC003 login testing DDT ***
+17:23:49.$49 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:23:49.$49 [main] INFO  testCases.TC003_LoginPageTestDDT - Setting Login Details
+17:23:57.$57 [main] INFO  testCases.TC003_LoginPageTestDDT - *** finished TC003 login testing DDT ***
+17:23:57.$57 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:23:58.$58 [main] INFO  testCases.TC003_LoginPageTestDDT - Setting Login Details
+17:24:05.$05 [main] INFO  testCases.TC003_LoginPageTestDDT - *** finished TC003 login testing DDT ***
+17:24:05.$05 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***
+17:24:06.$06 [main] INFO  testCases.TC003_LoginPageTestDDT - Setting Login Details
+17:24:13.$13 [main] INFO  testCases.TC003_LoginPageTestDDT - *** finished TC003 login testing DDT ***
+17:52:07.$07 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked Country Dropdown
+17:52:07.$07 [main] INFO  testCases.TC003_LoginPageTestDDT - Selected the Country
+17:52:08.$08 [main] INFO  testCases.TC003_LoginPageTestDDT - Clicked on the Checkbox
+17:52:16.$16 [main] INFO  testCases.TC003_LoginPageTestDDT - *** staring TC003 login testing DDT***

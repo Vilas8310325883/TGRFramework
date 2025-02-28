@@ -1,0 +1,11 @@
+pageObjects\RegisterPage.class
+pageObjects\HomePage.class
+utilities\ExcelUtility.class
+testCases\BaseClass.class
+testCases\TC003_LoginPageTestDDT.class
+testCases\TC001_AccountRegistrationTest.class
+pageObjects\LoginPage.class
+testCases\TC002_LoginPageTest.class
+pageObjects\BasePage.class
+utilities\ExtentReportManager.class
+utilities\DataProviders.class
