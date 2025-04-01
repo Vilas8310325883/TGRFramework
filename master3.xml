@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--  <suite name="Suite" thread-count="5" parallel="tests">-->
+<suite name="Suite">
+<parameter name = "os" value = "Windows"/>
+   <parameter name = "browser" value = "chrome"/>
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+  <test name="ChromrTest">
+    <classes>
+     <class name="testCases.TC001_AccountRegistrationTest"/>
+     <class name="testCases.TC002_LoginPageTest"/> 
+     <class name="testCases.TC007_AddToCartPLPTest"/> 
+      <class name="testCases.TC008_WishListPDP"/> 
+      <class name="testCases.TC004_AddToCart"/>
+    <class name="testCases.TC009_Minicart"/> 
+       <class name="testCases.TC006_AddFreeBeeToCart"/>
+       <class name="testCases.TC010_Checkoutpage"/>
+       <class name="testCases.TC011_OrderPlace"/> 
+    </classes>
+  </test> <!-- Test -->
+ <!--   <test name="ChromeTest">	
+  <parameter name = "os" value = "Windows"/>
+   <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="testCases.TC001_AccountRegistrationTest"/>
+    </classes>
+  </test> Test !-->
+</suite> 

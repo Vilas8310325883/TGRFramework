@@ -29,5 +29,29 @@ public class DataProviders{
 		return logindata;
 		
 	}
+	@DataProvider(name="OrderPlace")
+	public String [][] getData1() throws IOException
+	{
+		String path ="C:\\Users\\codilar\\eclipse-workspace\\TGRFramework\\testData\\test11.xlsx";
+		ExcelUtility xlutil = new ExcelUtility(path);
+		int totalrows = xlutil.getRowCount("Sheet2");
+		int totalrowswithvalue = totalrows-1;
+		System.out.println(totalrowswithvalue);
+		//System.out.println(totalrows);
+	//	int totalrows = 6;
+		int totalcols = xlutil.getCellcount("Sheet2", 1);
+		
+		String logindata[][] = new String[totalrowswithvalue] [totalcols];
+		for(int i=1; i<=totalrowswithvalue;i++)
+		{
+			for(int j=0;j<totalcols;j++)
+			{
+				logindata[i-1][j]= xlutil.getCellData("Sheet2", i, j);
+			}
+		}
+		System.out.println(logindata);
+		return logindata;
+		
+	}
 
 }

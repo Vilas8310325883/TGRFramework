@@ -1,0 +1,52 @@
+22:34:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+22:34:03.$03 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+22:34:09.$09 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+22:34:12.$12 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+22:34:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+22:34:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC004 PDP Add To Cart testing ***
+22:35:13.$13 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC004 PDP Add To Cart testing ***
+22:35:13.$13 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove Product From Cart testing ***
+22:35:25.$25 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Remove Product From Cart testing ***
+22:37:59.$59 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master2.xml
+
+22:38:16.$16 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+22:38:16.$16 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+22:38:16.$16 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+22:38:22.$22 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+22:38:25.$25 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+22:38:32.$32 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+22:38:32.$32 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC004 PDP Add To Cart testing ***
+22:39:25.$25 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC004 PDP Add To Cart testing ***
+22:39:25.$25 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Add Free Bee testing ***
+22:39:38.$38 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Add Free Bee testing ***
+22:39:38.$38 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove Free Bee testing ***
+22:39:51.$51 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Remove Free Bee testing ***
+22:39:51.$51 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Add To Wishlist From Cart Page testing ***
+22:39:59.$59 [main] INFO  testCases.TC002_LoginPageTest - *** finished Add To Wishlist From Cart Page testing ***
+22:39:59.$59 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove From The Wislist From Cart Page testing ***
+22:40:03.$03 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Remove From The Wislist From Cart Page testing ***
+22:40:03.$03 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Increase Product Quantity In Cart Page testing ***
+22:40:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Increase Product Quantity In Cart Page testing ***
+22:40:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Decrease Product Quantity In Cart Page testing ***
+22:40:33.$33 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC009 Decrease Product Quantity In Cart Page testing ***
+22:40:33.$33 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Apply Coupon Code In Cart Page testing ***
+22:40:41.$41 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Apply Coupon Code In Cart Page testing ***
+22:40:41.$41 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove Coupon Code In Cart Page testing ***
+22:40:44.$44 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Remove Coupon Code In Cart Page Carttesting ***
+22:40:44.$44 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove Product From Cart testing ***
+22:40:45.$45 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+22:44:06.$06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master2.xml
+
+22:44:22.$22 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+22:44:22.$22 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+22:44:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+22:44:28.$28 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+22:44:32.$32 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+22:44:39.$39 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+22:44:39.$39 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC004 PDP Add To Cart testing ***
+22:45:32.$32 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC004 PDP Add To Cart testing ***
+22:45:32.$32 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Add Free Bee testing ***
+22:45:46.$46 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC006 Add Free Bee testing ***
+22:45:46.$46 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC006 Remove Free Bee testing ***

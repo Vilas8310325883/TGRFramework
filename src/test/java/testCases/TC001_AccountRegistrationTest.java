@@ -1,5 +1,12 @@
 package testCases;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,7 +27,9 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		logger.info("Providing customer details");
 		rp.setfirstname(randomeString().toUpperCase());
 		rp.setlastname(randomeString().toUpperCase());
-		rp.setemail(randomeString()+"@gmail.com");
+		String email = randomeString()+"@gmail.com";
+		System.out.println(email);
+		rp.setemail(email);
 		rp.setDOB("03-11-1997");
 		String password = randomAlphanumeric();
 		rp.setpassword(password);
@@ -28,8 +37,18 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		rp.clicksubscription();
 		rp.clickremote_shopping_assistance();
 		rp.clicksubmit();	
+		try
+		{  
+			FileOutputStream outputStream = new FileOutputStream("C:\\Users\\codilar\\eclipse-workspace\\TGRFramework\\src\\test\\resources\\config.properties");
+		    p.setProperty("Email", email);
+		    p.setProperty("Password", password);
+		    p.store(outputStream, null);
+		} catch (IOException e) {
+		    e.printStackTrace();
+		} 
 		logger.info("Validating expected message");
 		String confirmmsg = rp.getConfirmationMsg();
+		hp.clickSignout();
 		Assert.assertEquals(confirmmsg, "You are successfully logged in!");
 		}
 		catch(Exception e)

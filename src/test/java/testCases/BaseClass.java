@@ -1,11 +1,14 @@
 package testCases;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -13,16 +16,19 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -37,20 +43,22 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import pageObjects.HomePage;
+import pageObjects.PDPPage;
+import pageObjects.PLPPage;
 public class BaseClass {
-	public Logger logger;
+	public static Logger logger;
 	public static WebDriver driver;
-	public Properties p;
+	public static Properties p = new Properties();
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
 	public ExtentTest logger1;
-	@BeforeClass(groups= {"Sanity","Regression","Sanity1"})
+	@BeforeSuite(groups= {"Sanity","Regression","Sanity1"})
 	@Parameters({"os","browser"})
 public void setup(String os, String br) throws InterruptedException, IOException
 	//public void setup() throws InterruptedException, IOException
 	{
 		FileReader file = new FileReader("./src//test//resources//config.properties");
-		p = new Properties();
+	//	p = new Properties();
 		p.load(file);
 		logger = LogManager.getLogger(this.getClass());
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
@@ -93,7 +101,7 @@ public void setup(String os, String br) throws InterruptedException, IOException
 		case  "chrome" : System.setProperty("webdriver.chrome.driver", "C:\\Webdriver\\chromedriver.exe");
 			             driver = new ChromeDriver(); break;
 			             
-		case "edge":    System.setProperty("webdriver.edge.drive", "C:\\Webdriver\\msedgedriver.exe");
+		case "edge":    System.setProperty("webdriver.edge.driver", "C:\\Webdriver\\msedgedriver.exe");
 			            driver = new EdgeDriver(); break;
 		case "firefox": System.setProperty("webdriver.gecko.driver", "C:\\Webdriver\\geckodriver.exe");
 			            driver = new FirefoxDriver(); break;
@@ -102,6 +110,7 @@ public void setup(String os, String br) throws InterruptedException, IOException
 		}
 		driver.manage().deleteAllCookies();
 		driver.get(p.getProperty("URL"));
+		System.out.println(p.getProperty("URL"));
 		driver.manage().window().maximize();	
 		Thread.sleep(10000);
 	//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -128,7 +137,7 @@ public void setup(String os, String br) throws InterruptedException, IOException
 		sparkReporter.config().setReportName("Automation Reports Login Reports");
 				
 	}*/
-   @AfterClass(groups= {"Sanity","Regression","Sanity1"})
+  @AfterSuite(groups= {"Sanity","Regression","Sanity1"})
 	public void teardown()
 	{
 	  driver.quit();
@@ -158,6 +167,300 @@ public void setup(String os, String br) throws InterruptedException, IOException
 		return targetFilePath;
 				
 	}
+	public static int totalProductInfo(String TotalProduct) throws InterruptedException
+	{
+			String a1[] = TotalProduct.split(";");
+			int numberofproducts =a1.length;
+			return numberofproducts;
+	}
+	public String getCategoryInfo(String productinfo)
+	{
+		String productinformation[] = productinfo.split("#");
+		String category = productinformation[0];
+		String product = productinformation[1];
+		return category;	
+	}
+	public String getProductInfo(String productinfo)
+	{
+		String productinformation[] = productinfo.split("#");
+		String category = productinformation[0];
+		String product = productinformation[1];
+		System.out.println(category);
+		return product;	
+	}
+	public String getProductName(String productinfo)
+	{
+		String products[] = productinfo.split("!") ;
+	   String productname = products[0];
+	   System.out.println(productname);
+		return productname;	
+	}
+	public String getPLPProductType(String productinfo)
+	{
+		String products[] = productinfo.split("!") ;
+		try {
+		    String configtype =products[1]; 
+		    System.out.println(configtype);
+			return configtype;	
+			}
+			catch(ArrayIndexOutOfBoundsException e)
+			{
+				String New = "No Config";
+				return New;
+			}
+	}
+	public int getProductQuality(String productinfo)
+	{
+		String products[] = productinfo.split("!") ;
+		String quantity = products[1];
+		int Quantity1=Integer.parseInt(quantity); 
+		return Quantity1;	
+	}
+	public String getConfigDetails(String productinfo)
+	{
+		String products[] = productinfo.split("!") ;
+		try {
+	    String configtype =products[2]; 
+	    System.out.println(configtype);
+		return configtype;	
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			String New = "No Config";
+			return New;
+		}
+	}
+	public void waitTime(String time) throws InterruptedException
+	{
+		int waitTime=Integer.parseInt(time); 
+		Thread.sleep(waitTime);
+	}
+	public void loadPropertyFile()
+	{
+		try {
+        	FileInputStream inputStream = new FileInputStream("C:\\Users\\codilar\\eclipse-workspace\\TGRFramework\\src\\test\\resources\\config.properties");
+        	p.load(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+	}
+	public String addToCartFromPDP() throws InterruptedException
+	{
+		String productInfo = p.getProperty("productinfo");
+		System.out.println(productInfo);
+	//	int numberofproducts = totalProductInfo(productInfo);
+	/*	for(int i=0;i<numberofproducts;i++)
+		{
+			String ai = a1[i];
+		ProductAddToCart(ai,numberofproducts,sheet2,m,row);
+		}*/
+	HomePage hp = new HomePage(driver);
+	PDPPage pdp = new PDPPage(driver);
+	PLPPage plp = new PLPPage(driver);
+	 String successmsg = null;
+	hp.clickMegaMenu();
+	System.out.println("vvv");
+	hp.waitTime();
+	String categoryDetails = getCategoryInfo(productInfo);
+	hp.categorySelection(categoryDetails);
+	String productDetails = getProductInfo(productInfo);
+	String productname = getProductName(productDetails);
+	int productquantity = getProductQuality(productDetails);
+	String configtypevalue = getConfigDetails(productDetails);
+	if(configtypevalue.equalsIgnoreCase("No Config"))
+	{
+	
+	}
+	System.out.println(configtypevalue);
+	
+	plp.waitTime("3000");
+	plp.ScrollDown();
+	plp.waitElementload();
+	String next_attribute = plp.GetNextAttribute();
+	while(!next_attribute.equalsIgnoreCase("PaginationLink PaginationLink_isArrow PaginationLink_isArrowInActive"))
+	{
+		String cartquantity1 = hp.GetCartQuantity();
+		String requiredproduct = productname;
+List<WebElement> AvailableProducts = plp.GetProducts();
+for(int i=0;i<AvailableProducts.size();i++)
+{		
+	Thread.sleep(5000);
+	String productname1 = plp.GetProductName(i);
+	System.out.println(productname1);
+	if(productname1.equalsIgnoreCase(requiredproduct))
+	{
+		System.out.println(productname1);
+		Thread.sleep(2000);
+		WebElement description=	AvailableProducts.get(i);
+		Iterator<String> ab = plp.OpenProductInNewTab(description);
+		String ParentId=ab.next();
+		System.out.println(ab);
+		while(ab.hasNext())
+		{
+			plp.SwitchToPDP(ab);
+			try {
+				pdp.ClickConfigOptionSelection();
+				pdp.waitTime("2000");
+				pdp.SelectConfigValue(configtypevalue);
+				pdp.waitTime("2000");
+				pdp.ClickCloseButton();
+				int requiredquantity = productquantity;
+				int PresentNumberQuatity = pdp.GetProductQuantity();
+				if(requiredquantity==PresentNumberQuatity)
+				{
+					pdp.ClickAddBasketButton();
+					pdp.waitTime("3000");
+				}
+				else
+				{
+					for(int l=1;l<requiredquantity;l++)
+					{
+						try {
+							pdp.ClickPlusButton();;
+						}
+						catch(Exception e7)
+						{
+							pdp.ClickAddBasketButton();
+							break;
+						}
+					}
+				}
+				pdp.ClickAddBasketButton();
+				 successmsg =   pdp.GetSuccessMsg();
+				  System.out.println(successmsg);
+			    pdp.waitTime("3000");
+			}
+			catch(Exception e1)
+			{
+				int requiredquantity = productquantity;
+				int PresentNumberQuatity = pdp.GetProductQuantity();
+				if(requiredquantity==PresentNumberQuatity)
+				{
+					pdp.ClickAddBasketButton();
+					pdp.waitTime("3000");
+				}
+				else
+				{
+					for(int l=1;l<requiredquantity;l++)
+					{
+						try {
+							pdp.ClickPlusButton();;
+						}
+						catch(Exception e7)
+						{
+							pdp.ClickAddBasketButton();
+							break;
+						}
+					}
+				}
+				pdp.ClickAddBasketButton();
+			   successmsg =   pdp.GetSuccessMsg();
+			  System.out.println(successmsg);
+		//	  Assert.assertEquals(successmsg, "Product was added to cart!");
+			}		
+			driver.close();
+			driver.switchTo().window(ParentId);
+			driver.navigate().refresh();
+			
+		}
+		break;
+	}
+}
+plp.waitTime("5000");
+String cartquantity2 = hp.GetCartQuantity();
+System.out.println(cartquantity2);
+if(!cartquantity1.equalsIgnoreCase(cartquantity2))
+{
+	break;
+}
+else
+{
+	driver.navigate().refresh();
+	Thread.sleep(5000);	
+	plp.ClickNextButton();
+	Thread.sleep(10000);
+}	
+}
+	return successmsg;	
+	}
+	
+	public String addToCartPLP() throws InterruptedException
+	{
+		String productInfo = p.getProperty("PLPproductinformation");
+		System.out.println(productInfo);
+//		int numberofproducts = totalProductInfo(productInfo);
+	/*	for(int i=0;i<numberofproducts;i++)
+		{
+			String ai = a1[i];
+		ProductAddToCart(ai,numberofproducts,sheet2,m,row);
+		}*/
+	    HomePage hp = new HomePage(driver);
+	    PDPPage pdp = new PDPPage(driver);
+	    PLPPage plp = new PLPPage(driver);
+	    String successmsg = null;
+	    hp.waitTime();
+	    hp.clickMegaMenu();
+	    hp.waitTime();
+	    String categoryDetails = getCategoryInfo(productInfo);
+	    hp.categorySelection(categoryDetails);
+	    String productDetails = getProductInfo(productInfo);
+	    String productname = getProductName(productDetails);
+	    String configtypevalue = getPLPProductType(productDetails);
+	    if(configtypevalue.equalsIgnoreCase("No Config"))
+		{
+		
+		}
+		plp.waitTime("3000");
+		plp.ScrollDown();
+		plp.waitElementload();
+		String next_attribute = plp.GetNextAttribute();
+		while(!next_attribute.equalsIgnoreCase("PaginationLink PaginationLink_isArrow PaginationLink_isArrowInActive"))
+		{
+			String cartquantity1 = hp.GetCartQuantity();
+			String requiredproduct = productname;
+			List<WebElement> AvailableProducts = plp.GetProducts();
+			for(int i=0;i<AvailableProducts.size();i++)
+			{		
+				plp.waitTime("2000");
+				plp.ScrollUp();
+				plp.waitTime("2000");
+				String productname1 = plp.GetProductName(i);
+				if(productname1.equalsIgnoreCase(requiredproduct))
+				{
+					plp.ScrollToElement(productname1);
+					plp.waitTime("2000");
+					plp.addToBasket(productname1);
+			          try {
+			        	    plp.selectConfigOption(configtypevalue);
+			        		plp.ClickAddBasketButton();
+			          }
+			          catch(Exception e)
+			          {
+			          }  
+							  successmsg =   pdp.GetSuccessMsg();
+							//  Assert.assertEquals(successmsg, "Product was added to cart!");
+							  break;
+			          }
+				}
+			
+			plp.waitTime("5000");
+			String cartquantity2 = hp.GetCartQuantity();
+			if(!cartquantity1.equalsIgnoreCase(cartquantity2))
+			{
+				break;
+			}
+			else
+			{
+				driver.navigate().refresh();
+				plp.waitTime("5000");
+				plp.ClickNextButton();
+				plp.waitTime("10000");
+		}	
+			
+			}
+		return successmsg;
+	}
+	
 
 }
 //Stand alone server command

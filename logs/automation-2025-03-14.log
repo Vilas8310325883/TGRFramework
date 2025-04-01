@@ -1,0 +1,53 @@
+17:53:36.$36 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+17:53:36.$36 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+17:53:37.$37 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+17:53:38.$38 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+17:53:43.$43 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******
+17:53:43.$43 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC002 login testing ***
+17:53:46.$46 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Login Details
+17:53:53.$53 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC002 login testing ***
+17:53:53.$53 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+17:56:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+17:56:59.$59 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC007 PLP Add To Cart testing ***
+17:57:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PLP Add To Cart testing ***
+17:57:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+18:00:25.$25 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:00:26.$26 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC005 Coupon Code testing ***
+18:00:32.$32 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC005 Coupon Code testing ***
+18:00:32.$32 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add Free Bee testing ***
+18:03:49.$49 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master2.xml
+
+18:04:43.$43 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master2.xml
+
+18:04:57.$57 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Country Dropdown
+18:04:57.$57 [main] INFO  testCases.TC001_AccountRegistrationTest - Selected the Country
+18:04:58.$58 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on the Checkbox
+18:05:03.$03 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+18:05:03.$03 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+18:05:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+18:05:06.$06 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:05:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******
+18:05:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC002 login testing ***
+18:05:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Login Details
+18:05:21.$21 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC002 login testing ***
+18:05:21.$21 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+18:06:09.$09 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+18:06:12.$12 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC007 PLP Add To Cart testing ***
+18:06:17.$17 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:17:40.$40 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master2.xml
+
+18:17:55.$55 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Country Dropdown
+18:17:55.$55 [main] INFO  testCases.TC001_AccountRegistrationTest - Selected the Country
+18:17:55.$55 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on the Checkbox
+18:18:01.$01 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+18:18:01.$01 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+18:18:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+18:18:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:18:08.$08 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******
+18:18:08.$08 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC002 login testing ***
+18:18:12.$12 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Login Details
+18:18:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC002 login testing ***
+18:18:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***

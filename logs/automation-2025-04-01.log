@@ -1,0 +1,41 @@
+15:40:39.$39 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on the Checkbox
+15:40:44.$44 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+15:40:45.$45 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+15:40:45.$45 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+15:40:47.$47 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+15:40:50.$50 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******
+15:40:50.$50 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC002 login testing ***
+15:40:54.$54 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Login Details
+15:41:00.$00 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC002 login testing ***
+15:41:00.$00 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC007 PLP Add To Cart testing ***
+15:41:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PLP Add To Cart testing ***
+15:41:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+15:42:21.$21 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+15:42:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+15:43:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+15:43:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Add To Wishlist From Minicart testing ***
+15:43:17.$17 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Add To Wishlist From Minicart testing ***
+15:43:17.$17 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove From The Wislist From Minicart testing ***
+15:43:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Remove From The Wislist From Minicart testing ***
+15:43:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Increase Product Quantity In Minicart testing ***
+15:43:38.$38 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Increase Product Quantity In Minicart testing ***
+15:43:38.$38 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Decrease Product Quantity In Minicart testing ***
+15:43:51.$51 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Decrease Product Quantity In Minicart testing ***
+15:43:51.$51 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Apply Coupon Code In Mini Cart testing ***
+15:43:55.$55 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+15:43:55.$55 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove Coupon Code In Mini Cart testing ***
+15:43:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+15:43:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove Coupon Code In Mini Cart testing ***
+15:43:59.$59 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+15:43:59.$59 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add Free Bee testing ***
+15:45:00.$00 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Add Free Bee testing ***
+15:45:00.$00 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Free Bee testing ***
+15:45:13.$13 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Free Bee testing ***
+15:45:13.$13 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add To Wishlist From Cart Page testing ***
+15:45:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished Add To Wishlist From Cart Page testing ***
+15:45:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove From The Wislist From Cart Page testing ***
+15:45:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove From The Wislist From Cart Page testing ***
+15:45:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Increase Product Quantity In Cart Page testing ***
+15:45:41.$41 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Increase Product Quantity In Cart Page testing ***
+15:45:41.$41 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Decrease Product Quantity In Cart Page testing ***
+15:45:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Decrease Product Quantity In Cart Page testing ***

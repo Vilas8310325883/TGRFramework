@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-26T15:32:40 IST" name="Suite" finished-at="2025-02-26T15:34:02 IST" duration-ms="82342">
+  <suite started-at="2025-04-01T15:40:44 IST" name="Suite" finished-at="2025-04-01T15:52:02 IST" duration-ms="678540">
     <groups>
-      <group name="Sanity1">
-        <method signature="TC003_LoginPageTestDDT.LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" name="LoginTestDDT" class="testCases.TC003_LoginPageTestDDT"/>
-      </group> <!-- Sanity1 -->
+      <group name="Sanity">
+        <method signature="TC002_LoginPageTest.verifyLogin()[pri:0, instance:testCases.TC002_LoginPageTest@609640d5]" name="verifyLogin" class="testCases.TC002_LoginPageTest"/>
+        <method signature="TC004_AddToCart.AddToCart()[pri:0, instance:testCases.TC004_AddToCart@192d74fb]" name="AddToCart" class="testCases.TC004_AddToCart"/>
+        <method signature="TC006_AddFreeBeeToCart.addFreeBeeValidation()[pri:0, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="addFreeBeeValidation" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC007_AddToCartPLPTest.PLPAddToCart()[pri:0, instance:testCases.TC007_AddToCartPLPTest@79da1ec0]" name="PLPAddToCart" class="testCases.TC007_AddToCartPLPTest"/>
+        <method signature="TC008_WishListPDP.PDPAddToWishList()[pri:0, instance:testCases.TC008_WishListPDP@19fb8826]" name="PDPAddToWishList" class="testCases.TC008_WishListPDP"/>
+        <method signature="TC009_Minicart.addToWishListInMiniCartPage()[pri:0, instance:testCases.TC009_Minicart@4bef0fe3]" name="addToWishListInMiniCartPage" class="testCases.TC009_Minicart"/>
+        <method signature="TC010_Checkoutpage.applyLoyaltyPointToCart()[pri:0, instance:testCases.TC010_Checkoutpage@27953a83]" name="applyLoyaltyPointToCart" class="testCases.TC010_Checkoutpage"/>
+        <method signature="TC011_OrderPlace.orderPlacing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_OrderPlace@556d0826]" name="orderPlacing" class="testCases.TC011_OrderPlace"/>
+        <method signature="TC006_AddFreeBeeToCart.removeFreeBeeValidation()[pri:1, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="removeFreeBeeValidation" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC008_WishListPDP.PDPRemoveFromWishList()[pri:1, instance:testCases.TC008_WishListPDP@19fb8826]" name="PDPRemoveFromWishList" class="testCases.TC008_WishListPDP"/>
+        <method signature="TC009_Minicart.removeFromWishListInCartPage()[pri:1, instance:testCases.TC009_Minicart@4bef0fe3]" name="removeFromWishListInCartPage" class="testCases.TC009_Minicart"/>
+        <method signature="TC010_Checkoutpage.removeLoyaltyPointToCart()[pri:1, instance:testCases.TC010_Checkoutpage@27953a83]" name="removeLoyaltyPointToCart" class="testCases.TC010_Checkoutpage"/>
+        <method signature="TC006_AddFreeBeeToCart.addToWishListInCartPage()[pri:2, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="addToWishListInCartPage" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC009_Minicart.increaseProductQuanityInMiniCart()[pri:2, instance:testCases.TC009_Minicart@4bef0fe3]" name="increaseProductQuanityInMiniCart" class="testCases.TC009_Minicart"/>
+        <method signature="TC010_Checkoutpage.addNewAddress()[pri:2, instance:testCases.TC010_Checkoutpage@27953a83]" name="addNewAddress" class="testCases.TC010_Checkoutpage"/>
+        <method signature="TC006_AddFreeBeeToCart.removeFromWishListInCartPage()[pri:3, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="removeFromWishListInCartPage" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC009_Minicart.decreaseProductQuanityInMiniCart()[pri:3, instance:testCases.TC009_Minicart@4bef0fe3]" name="decreaseProductQuanityInMiniCart" class="testCases.TC009_Minicart"/>
+        <method signature="TC010_Checkoutpage.editNewAddress()[pri:3, instance:testCases.TC010_Checkoutpage@27953a83]" name="editNewAddress" class="testCases.TC010_Checkoutpage"/>
+        <method signature="TC006_AddFreeBeeToCart.increaseProductQuanityInCartPage()[pri:4, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="increaseProductQuanityInCartPage" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC009_Minicart.applyCouponCodeValidation()[pri:4, instance:testCases.TC009_Minicart@4bef0fe3]" name="applyCouponCodeValidation" class="testCases.TC009_Minicart"/>
+        <method signature="TC010_Checkoutpage.addAlternateNewAddress()[pri:4, instance:testCases.TC010_Checkoutpage@27953a83]" name="addAlternateNewAddress" class="testCases.TC010_Checkoutpage"/>
+        <method signature="TC006_AddFreeBeeToCart.decreaseProductQuanityInCartPage()[pri:5, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="decreaseProductQuanityInCartPage" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC009_Minicart.removeCouponCodeValidation()[pri:5, instance:testCases.TC009_Minicart@4bef0fe3]" name="removeCouponCodeValidation" class="testCases.TC009_Minicart"/>
+        <method signature="TC006_AddFreeBeeToCart.addCouponCodeInCartPageValidation()[pri:6, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="addCouponCodeInCartPageValidation" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC009_Minicart.removeProductFromMiniCart()[pri:6, instance:testCases.TC009_Minicart@4bef0fe3]" name="removeProductFromMiniCart" class="testCases.TC009_Minicart"/>
+        <method signature="TC006_AddFreeBeeToCart.removeCouponCodeInCartPageValidation()[pri:7, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="removeCouponCodeInCartPageValidation" class="testCases.TC006_AddFreeBeeToCart"/>
+        <method signature="TC006_AddFreeBeeToCart.removeProductFromCart()[pri:8, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" name="removeProductFromCart" class="testCases.TC006_AddFreeBeeToCart"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@590c73d3]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-02-26T15:32:40 IST" name="EdgeTest" finished-at="2025-02-26T15:34:02 IST" duration-ms="82342">
-      <class name="testCases.TC003_LoginPageTestDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:32:41 IST" name="setup" finished-at="2025-02-26T15:33:05 IST" duration-ms="24824" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-01T15:40:44 IST" name="ChromrTest" finished-at="2025-04-01T15:52:02 IST" duration-ms="678540">
+      <class name="testCases.TC007_AddToCartPLPTest">
+        <test-method signature="PLPAddToCart()[pri:0, instance:testCases.TC007_AddToCartPLPTest@79da1ec0]" started-at="2025-04-01T15:41:00 IST" name="PLPAddToCart" finished-at="2025-04-01T15:41:35 IST" duration-ms="34838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:09 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:17 IST" duration-ms="7957" status="PASS">
+        </test-method> <!-- PLPAddToCart -->
+      </class> <!-- testCases.TC007_AddToCartPLPTest -->
+      <class name="testCases.TC009_Minicart">
+        <test-method signature="addToWishListInMiniCartPage()[pri:0, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:14 IST" name="addToWishListInMiniCartPage" finished-at="2025-04-01T15:43:17 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishListInMiniCartPage -->
+        <test-method signature="removeFromWishListInCartPage()[pri:1, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:17 IST" name="removeFromWishListInCartPage" finished-at="2025-04-01T15:43:20 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromWishListInCartPage -->
+        <test-method signature="increaseProductQuanityInMiniCart()[pri:2, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:20 IST" name="increaseProductQuanityInMiniCart" finished-at="2025-04-01T15:43:38 IST" duration-ms="17544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseProductQuanityInMiniCart -->
+        <test-method signature="decreaseProductQuanityInMiniCart()[pri:3, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:38 IST" name="decreaseProductQuanityInMiniCart" finished-at="2025-04-01T15:43:51 IST" duration-ms="13454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreaseProductQuanityInMiniCart -->
+        <test-method signature="applyCouponCodeValidation()[pri:4, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:51 IST" name="applyCouponCodeValidation" finished-at="2025-04-01T15:43:55 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyCouponCodeValidation -->
+        <test-method signature="removeCouponCodeValidation()[pri:5, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:55 IST" name="removeCouponCodeValidation" finished-at="2025-04-01T15:43:56 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCouponCodeValidation -->
+        <test-method signature="removeProductFromMiniCart()[pri:6, instance:testCases.TC009_Minicart@4bef0fe3]" started-at="2025-04-01T15:43:56 IST" name="removeProductFromMiniCart" finished-at="2025-04-01T15:43:59 IST" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromMiniCart -->
+      </class> <!-- testCases.TC009_Minicart -->
+      <class name="testCases.TC011_OrderPlace">
+        <test-method signature="orderPlacing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_OrderPlace@556d0826]" started-at="2025-04-01T15:48:06 IST" name="orderPlacing" data-provider="OrderPlace" finished-at="2025-04-01T15:50:18 IST" duration-ms="131845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,29 +84,19 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Validation of getting validation message while given empty value for email field]]>
+                <![CDATA[Validation of order placing through Bitcoin and Altcoins via CoinGate payment method]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vilas147@]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[This field is required!]]>
+                <![CDATA[Bitcoin and Altcoins via CoinGate]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:17 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:25 IST" duration-ms="8159" status="PASS">
+        </test-method> <!-- orderPlacing -->
+        <test-method signature="orderPlacing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_OrderPlace@556d0826]" started-at="2025-04-01T15:50:18 IST" name="orderPlacing" data-provider="OrderPlace" finished-at="2025-04-01T15:52:02 IST" duration-ms="104728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,157 +105,127 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Validation of getting validation message while given empty value for password field]]>
+                <![CDATA[Validation of order placing through Pay by Cash payment method]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[vilas.hj@codilar.com ]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[This field is required!]]>
+                <![CDATA[Pay by Cash]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:25 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:33 IST" duration-ms="8082" status="PASS">
+        </test-method> <!-- orderPlacing -->
+      </class> <!-- testCases.TC011_OrderPlace -->
+      <class name="testCases.TC004_AddToCart">
+        <test-method signature="AddToCart()[pri:0, instance:testCases.TC004_AddToCart@192d74fb]" started-at="2025-04-01T15:42:23 IST" name="AddToCart" finished-at="2025-04-01T15:43:14 IST" duration-ms="51358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+      </class> <!-- testCases.TC004_AddToCart -->
+      <class name="testCases.TC008_WishListPDP">
+        <test-method signature="PDPAddToWishList()[pri:0, instance:testCases.TC008_WishListPDP@19fb8826]" started-at="2025-04-01T15:41:35 IST" name="PDPAddToWishList" finished-at="2025-04-01T15:42:21 IST" duration-ms="45784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PDPAddToWishList -->
+        <test-method signature="PDPRemoveFromWishList()[pri:1, instance:testCases.TC008_WishListPDP@19fb8826]" started-at="2025-04-01T15:42:21 IST" name="PDPRemoveFromWishList" finished-at="2025-04-01T15:42:23 IST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PDPRemoveFromWishList -->
+      </class> <!-- testCases.TC008_WishListPDP -->
+      <class name="testCases.TC006_AddFreeBeeToCart">
+        <test-method signature="addFreeBeeValidation()[pri:0, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:43:59 IST" name="addFreeBeeValidation" finished-at="2025-04-01T15:45:00 IST" duration-ms="61937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFreeBeeValidation -->
+        <test-method signature="removeFreeBeeValidation()[pri:1, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:00 IST" name="removeFreeBeeValidation" finished-at="2025-04-01T15:45:13 IST" duration-ms="12528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFreeBeeValidation -->
+        <test-method signature="addToWishListInCartPage()[pri:2, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:13 IST" name="addToWishListInCartPage" finished-at="2025-04-01T15:45:20 IST" duration-ms="6866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishListInCartPage -->
+        <test-method signature="removeFromWishListInCartPage()[pri:3, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:20 IST" name="removeFromWishListInCartPage" finished-at="2025-04-01T15:45:23 IST" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromWishListInCartPage -->
+        <test-method signature="increaseProductQuanityInCartPage()[pri:4, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:23 IST" name="increaseProductQuanityInCartPage" finished-at="2025-04-01T15:45:41 IST" duration-ms="17508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseProductQuanityInCartPage -->
+        <test-method signature="decreaseProductQuanityInCartPage()[pri:5, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:41 IST" name="decreaseProductQuanityInCartPage" finished-at="2025-04-01T15:45:56 IST" duration-ms="15502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreaseProductQuanityInCartPage -->
+        <test-method signature="addCouponCodeInCartPageValidation()[pri:6, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:45:56 IST" name="addCouponCodeInCartPageValidation" finished-at="2025-04-01T15:46:02 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCouponCodeInCartPageValidation -->
+        <test-method signature="removeCouponCodeInCartPageValidation()[pri:7, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:46:02 IST" name="removeCouponCodeInCartPageValidation" finished-at="2025-04-01T15:46:04 IST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCouponCodeInCartPageValidation -->
+        <test-method signature="removeProductFromCart()[pri:8, instance:testCases.TC006_AddFreeBeeToCart@62ea3440]" started-at="2025-04-01T15:46:04 IST" name="removeProductFromCart" finished-at="2025-04-01T15:46:09 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+      </class> <!-- testCases.TC006_AddFreeBeeToCart -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@590c73d3]" started-at="2025-04-01T15:40:24 IST" name="setup" finished-at="2025-04-01T15:40:44 IST" duration-ms="19876" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[3]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Validation of getting validation message while given invalid email format]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[vilas]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vilas147@]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Incorrect email format!]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:33 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:42 IST" duration-ms="8377" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Valaidation of getting validation message while given non existing account]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[aa@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vilas147@]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[The customer does not exist in the website.]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@590c73d3]" started-at="2025-04-01T15:40:44 IST" name="verify_account_registration" finished-at="2025-04-01T15:40:50 IST" duration-ms="6025" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:42 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:33:50 IST" duration-ms="8120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Validation of getting validation message while given wrong password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[vilas.hj@codilar.com ]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method signature="LoginTestDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:33:50 IST" name="LoginTestDDT" data-provider="LoginData" finished-at="2025-02-26T15:34:01 IST" duration-ms="10932" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Validation of getting success message while given valid credentials]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[vilas.hj@codilar.com ]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vilas147@]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[You are successfully logged in!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTestDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginPageTestDDT@5824a83d]" started-at="2025-02-26T15:34:01 IST" name="teardown" finished-at="2025-02-26T15:34:02 IST" duration-ms="1590" status="PASS">
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@590c73d3]" started-at="2025-04-01T15:52:04 IST" name="teardown" finished-at="2025-04-01T15:52:10 IST" duration-ms="6086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC003_LoginPageTestDDT -->
-    </test> <!-- EdgeTest -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC010_Checkoutpage">
+        <test-method signature="applyLoyaltyPointToCart()[pri:0, instance:testCases.TC010_Checkoutpage@27953a83]" started-at="2025-04-01T15:46:09 IST" name="applyLoyaltyPointToCart" finished-at="2025-04-01T15:47:22 IST" duration-ms="73261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLoyaltyPointToCart -->
+        <test-method signature="removeLoyaltyPointToCart()[pri:1, instance:testCases.TC010_Checkoutpage@27953a83]" started-at="2025-04-01T15:47:22 IST" name="removeLoyaltyPointToCart" finished-at="2025-04-01T15:47:35 IST" duration-ms="12372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeLoyaltyPointToCart -->
+        <test-method signature="addNewAddress()[pri:2, instance:testCases.TC010_Checkoutpage@27953a83]" started-at="2025-04-01T15:47:35 IST" name="addNewAddress" finished-at="2025-04-01T15:47:40 IST" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddress -->
+        <test-method signature="editNewAddress()[pri:3, instance:testCases.TC010_Checkoutpage@27953a83]" started-at="2025-04-01T15:47:40 IST" name="editNewAddress" finished-at="2025-04-01T15:47:47 IST" duration-ms="7401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNewAddress -->
+        <test-method signature="addAlternateNewAddress()[pri:4, instance:testCases.TC010_Checkoutpage@27953a83]" started-at="2025-04-01T15:47:47 IST" name="addAlternateNewAddress" finished-at="2025-04-01T15:48:04 IST" duration-ms="17009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAlternateNewAddress -->
+      </class> <!-- testCases.TC010_Checkoutpage -->
+      <class name="testCases.TC002_LoginPageTest">
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC002_LoginPageTest@609640d5]" started-at="2025-04-01T15:40:50 IST" name="verifyLogin" finished-at="2025-04-01T15:41:00 IST" duration-ms="9483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- testCases.TC002_LoginPageTest -->
+    </test> <!-- ChromrTest -->
   </suite> <!-- Suite -->
 </testng-results>

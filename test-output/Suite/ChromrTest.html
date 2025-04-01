@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  ChromrTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromrTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 01 15:40:44 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>678 seconds (678540 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC009_Minicart.increaseProductQuanityInMiniCart()'><b>increaseProductQuanityInMiniCart</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.removeCouponCodeInCartPageValidation()'><b>removeCouponCodeInCartPageValidation</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC002_LoginPageTest.verifyLogin()'><b>verifyLogin</b><br>Test class: testCases.TC002_LoginPageTest</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC002_LoginPageTest@609640d5</td></tr>
+<tr>
+<td title='testCases.TC007_AddToCartPLPTest.PLPAddToCart()'><b>PLPAddToCart</b><br>Test class: testCases.TC007_AddToCartPLPTest</td>
+<td></td>
+<td>34</td>
+<td>testCases.TC007_AddToCartPLPTest@79da1ec0</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.increaseProductQuanityInCartPage()'><b>increaseProductQuanityInCartPage</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC010_Checkoutpage.addAlternateNewAddress()'><b>addAlternateNewAddress</b><br>Test class: testCases.TC010_Checkoutpage</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC010_Checkoutpage@27953a83</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.addToWishListInMiniCartPage()'><b>addToWishListInMiniCartPage</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.removeProductFromMiniCart()'><b>removeProductFromMiniCart</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC011_OrderPlace.orderPlacing()'><b>orderPlacing</b><br>Test class: testCases.TC011_OrderPlace<br>Parameters: 1, Validation of order placing through Bitcoin and Altcoins via CoinGate payment method, Bitcoin and Altcoins via CoinGate</td>
+<td></td>
+<td>131</td>
+<td>testCases.TC011_OrderPlace@556d0826</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.removeCouponCodeValidation()'><b>removeCouponCodeValidation</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.removeFromWishListInCartPage()'><b>removeFromWishListInCartPage</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC010_Checkoutpage.applyLoyaltyPointToCart()'><b>applyLoyaltyPointToCart</b><br>Test class: testCases.TC010_Checkoutpage</td>
+<td></td>
+<td>73</td>
+<td>testCases.TC010_Checkoutpage@27953a83</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.decreaseProductQuanityInCartPage()'><b>decreaseProductQuanityInCartPage</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.removeFromWishListInCartPage()'><b>removeFromWishListInCartPage</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC008_WishListPDP.PDPRemoveFromWishList()'><b>PDPRemoveFromWishList</b><br>Test class: testCases.TC008_WishListPDP</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC008_WishListPDP@19fb8826</td></tr>
+<tr>
+<td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC001_AccountRegistrationTest@590c73d3</td></tr>
+<tr>
+<td title='testCases.TC010_Checkoutpage.editNewAddress()'><b>editNewAddress</b><br>Test class: testCases.TC010_Checkoutpage</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC010_Checkoutpage@27953a83</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.decreaseProductQuanityInMiniCart()'><b>decreaseProductQuanityInMiniCart</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC011_OrderPlace.orderPlacing()'><b>orderPlacing</b><br>Test class: testCases.TC011_OrderPlace<br>Parameters: 2, Validation of order placing through Pay by Cash payment method, Pay by Cash</td>
+<td></td>
+<td>104</td>
+<td>testCases.TC011_OrderPlace@556d0826</td></tr>
+<tr>
+<td title='testCases.TC010_Checkoutpage.removeLoyaltyPointToCart()'><b>removeLoyaltyPointToCart</b><br>Test class: testCases.TC010_Checkoutpage</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC010_Checkoutpage@27953a83</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.addToWishListInCartPage()'><b>addToWishListInCartPage</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC009_Minicart.applyCouponCodeValidation()'><b>applyCouponCodeValidation</b><br>Test class: testCases.TC009_Minicart</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC009_Minicart@4bef0fe3</td></tr>
+<tr>
+<td title='testCases.TC004_AddToCart.AddToCart()'><b>AddToCart</b><br>Test class: testCases.TC004_AddToCart</td>
+<td></td>
+<td>51</td>
+<td>testCases.TC004_AddToCart@192d74fb</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.addCouponCodeInCartPageValidation()'><b>addCouponCodeInCartPageValidation</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC010_Checkoutpage.addNewAddress()'><b>addNewAddress</b><br>Test class: testCases.TC010_Checkoutpage</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC010_Checkoutpage@27953a83</td></tr>
+<tr>
+<td title='testCases.TC008_WishListPDP.PDPAddToWishList()'><b>PDPAddToWishList</b><br>Test class: testCases.TC008_WishListPDP</td>
+<td></td>
+<td>45</td>
+<td>testCases.TC008_WishListPDP@19fb8826</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.removeFreeBeeValidation()'><b>removeFreeBeeValidation</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+<tr>
+<td title='testCases.TC006_AddFreeBeeToCart.addFreeBeeValidation()'><b>addFreeBeeValidation</b><br>Test class: testCases.TC006_AddFreeBeeToCart</td>
+<td></td>
+<td>61</td>
+<td>testCases.TC006_AddFreeBeeToCart@62ea3440</td></tr>
+</table><p>
+</body>
+</html>

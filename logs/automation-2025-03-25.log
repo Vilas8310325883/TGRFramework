@@ -1,0 +1,61 @@
+17:45:41.$41 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:45:42.$42 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:45:42.$42 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:45:48.$48 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:45:51.$51 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:45:57.$57 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:45:57.$57 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Add New Address testing ***
+17:45:57.$57 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:45:58.$58 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+17:47:13.$13 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:51:50.$50 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:52:04.$04 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:52:04.$04 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:52:04.$04 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:52:10.$10 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:52:13.$13 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:52:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:52:19.$19 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Add New Address testing ***
+17:52:19.$19 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:52:20.$20 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+17:53:36.$36 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC009 Add To Wishlist From Minicart testing ***
+17:55:07.$07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:55:20.$20 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:55:21.$21 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:55:21.$21 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:55:27.$27 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:55:30.$30 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:55:36.$36 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:55:36.$36 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+17:56:51.$51 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC010 Apply Loyalty Points For Cart testing ***
+17:56:51.$51 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Add New Address testing ***
+17:56:51.$51 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:58:02.$02 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:58:15.$15 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:58:15.$15 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:58:15.$15 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:58:21.$21 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:58:25.$25 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:58:31.$31 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:58:31.$31 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+17:59:47.$47 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC010 Apply Loyalty Points For Cart testing ***
+17:59:47.$47 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Add New Address testing ***
+17:59:47.$47 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+18:01:18.$18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+18:01:32.$32 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+18:01:32.$32 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+18:01:32.$32 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+18:01:38.$38 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+18:01:41.$41 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+18:01:47.$47 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+18:01:48.$48 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+18:03:03.$03 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC010 Apply Loyalty Points For Cart testing ***
+18:03:03.$03 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC010 Add New Address testing ***
