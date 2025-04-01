@@ -18,7 +18,7 @@
           <version>3.5.2</version>
           <configuration>
           <suiteXmlFiles>
-          <suitexmlFile>master.xml</suitexmlFile>
+          <suitexmlFile>master3.xml</suitexmlFile>
           </suiteXmlFiles>
           </configuration>
         </plugin>
