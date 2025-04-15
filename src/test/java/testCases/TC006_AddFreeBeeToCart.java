@@ -1,5 +1,6 @@
 package testCases;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -230,6 +231,10 @@ public class TC006_AddFreeBeeToCart extends BaseClass {
 		String productDetails = getProductInfo(productInfo);
 		String productname = getProductName(productDetails);
 		System.out.println(productname);
+		Thread.sleep(1000);
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("window.scrollBy(0,-100)");
+        Thread.sleep(1000);
 		cp.clickRemoveButton(productname);
 		waitTime("2000");
 		cp.clickRemoveProductButton();

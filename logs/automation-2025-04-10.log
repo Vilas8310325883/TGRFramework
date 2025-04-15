@@ -1,0 +1,44 @@
+15:17:08.$08 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Add Free Bee testing ***
+15:17:08.$08 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Free Bee testing ***
+15:17:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Free Bee testing ***
+15:17:20.$20 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add To Wishlist From Cart Page testing ***
+15:17:27.$27 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished Add To Wishlist From Cart Page testing ***
+15:17:27.$27 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove From The Wislist From Cart Page testing ***
+15:17:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove From The Wislist From Cart Page testing ***
+15:17:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Increase Product Quantity In Cart Page testing ***
+15:17:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Increase Product Quantity In Cart Page testing ***
+15:17:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Decrease Product Quantity In Cart Page testing ***
+15:18:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Decrease Product Quantity In Cart Page testing ***
+15:18:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Apply Coupon Code In Cart Page testing ***
+15:18:09.$09 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Apply Coupon Code In Cart Page testing ***
+15:18:09.$09 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Coupon Code In Cart Page testing ***
+15:18:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Coupon Code In Cart Page Carttesting ***
+15:18:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Product From Cart testing ***
+15:18:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Product From Cart testing ***
+15:18:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
+15:19:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Apply Loyalty Points For Cart testing ***
+15:19:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Remove Loyalty Points For Cart testing ***
+15:19:43.$43 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Remove Loyalty Points For Cart testing ***
+15:19:43.$43 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Add New Address testing ***
+15:19:49.$49 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Add New Address testing ***
+15:19:49.$49 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Edit New Address testing ***
+15:19:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Edit New Address testing ***
+15:19:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Add Alternative New Address testing ***
+15:20:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Add Alternative New Address testing***
+15:20:16.$16 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:22:27.$27 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished  TC011 orderPlacing testing ***
+15:22:27.$27 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:24:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished  TC011 orderPlacing testing ***
+15:24:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:26:15.$15 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished  TC011 orderPlacing testing ***
+15:26:15.$15 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:27:48.$48 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+15:27:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:27:48.$48 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+15:27:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+15:27:48.$48 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+12:24:08.$08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+12:24:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Country Dropdown
+12:24:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - Selected the Country

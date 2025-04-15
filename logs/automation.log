@@ -1,20 +1,6 @@
-15:45:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Apply Coupon Code In Cart Page testing ***
-15:46:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Apply Coupon Code In Cart Page testing ***
-15:46:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Coupon Code In Cart Page testing ***
-15:46:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Coupon Code In Cart Page Carttesting ***
-15:46:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Product From Cart testing ***
-15:46:09.$09 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Product From Cart testing ***
-15:46:09.$09 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Apply Loyalty Points For Cart testing ***
-15:47:22.$22 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Apply Loyalty Points For Cart testing ***
-15:47:22.$22 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Remove Loyalty Points For Cart testing ***
-15:47:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Remove Loyalty Points For Cart testing ***
-15:47:35.$35 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Add New Address testing ***
-15:47:40.$40 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Add New Address testing ***
-15:47:40.$40 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Edit New Address testing ***
-15:47:47.$47 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Edit New Address testing ***
-15:47:47.$47 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC010 Add Alternative New Address testing ***
-15:48:04.$04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC010 Add Alternative New Address testing***
-15:48:06.$06 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
-15:50:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished  TC011 orderPlacing testing ***
-15:50:18.$18 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
-15:52:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished  TC011 orderPlacing testing ***
+12:24:23.$23 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on the Checkbox
+12:24:29.$29 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+12:24:29.$29 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+12:24:30.$30 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+12:24:33.$33 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+12:24:37.$37 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******

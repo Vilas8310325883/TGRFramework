@@ -19,7 +19,7 @@ public class CheckoutPage extends BasePage {
 	}
 	@FindBy(xpath="//input[@id='points']") WebElement loyality_points_field;
 	@FindBy(xpath="//button[contains(text(),'Apply')]") WebElement apply_button;
-	@FindBy(xpath="//button[@class='CheckoutAddressBook-Button']") WebElement add_new_address_button;
+	@FindBy(xpath="//button[contains(text(),'Add New Address')]") WebElement add_new_address_button;
 	@FindBy(xpath="//input[@name='firstname']") WebElement first_name;
 	@FindBy(xpath="//input[@name='lastname']") WebElement last_name;
 	@FindBy(xpath="//input[@name='telephone']") WebElement telephone;
@@ -51,6 +51,21 @@ public class CheckoutPage extends BasePage {
 	@FindBy(xpath="//button[@class='ApplyRewards-Button ApplyRewards-Button_isHollow']") WebElement loyality_points_remove_button;
 	@FindBy(xpath="//button[@class='Button CheckoutShipping-ContinueButton']") WebElement continue_delivery_button;
 	@FindBy(xpath="//div[@class='Image Image_imageStatus_IMAGE_LOADED Logo']") WebElement checkout_logo_button;
+	@FindBy(xpath="//div[@class='text-wrapper-4']") WebElement ovri_header;
+	@FindBy(xpath="//input[@id='cardHolder']") WebElement ovri_cardholder_name;
+	@FindBy(xpath="//input[@id='cardNumber']") WebElement ovri_cardnumber;
+	@FindBy(xpath="//input[@id='cardExpire']") WebElement ovri_cardexpire;
+	@FindBy(xpath="//input[@id='cardCvv']") WebElement ovri_cardcvv;
+	@FindBy(xpath="//button[@class='button-base-wrapper button payment']") WebElement ovri_confirmpayment;
+	@FindBy(xpath="//div[@class='button backafterpayment']") WebElement ovri_back_to_merchant;
+	@FindBy(xpath="//h6[@class='MuiTypography-root MuiTypography-subtitle1 css-a6w1k1']") WebElement credit_card_payment_header;
+	@FindBy(xpath="//input[@id='cardNumber']") WebElement credit_card_card_number;
+	@FindBy(xpath="//input[@id='cardHolderName']") WebElement credit_card_cardholder_name;
+	@FindBy(xpath="//input[@id='expiryDate']") WebElement credit_card_expire_date;
+	@FindBy(xpath="//input[@id='cvv']") WebElement credit_card_cvv;
+	@FindBy(xpath="//button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-fullWidth css-6bwm04']") WebElement pay_now_button;
+	
+	
 	
 	
 		
@@ -110,7 +125,7 @@ public class CheckoutPage extends BasePage {
 	  }
 	public void waitToLoadAddNewAddressButton()
 	{
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(add_new_address_button));
 	}
 	
@@ -341,6 +356,54 @@ public class CheckoutPage extends BasePage {
 				accept_pay_button.click();
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 				wait.until(ExpectedConditions.visibilityOf(thankyou_msg_field));
+				 successmsg = thankyou_msg_field.getText();
+			}
+			if(requiredPayment.equalsIgnoreCase("Pay by Bank Transfer"))
+			{
+				confirm_payment_button.click();
+				accept_pay_button.click();
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+				wait.until(ExpectedConditions.visibilityOf(thankyou_msg_field));
+				 successmsg = thankyou_msg_field.getText();
+			}
+			if(requiredPayment.equalsIgnoreCase("Pay by Cheque"))
+			{
+				confirm_payment_button.click();
+				accept_pay_button.click();
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+				wait.until(ExpectedConditions.visibilityOf(thankyou_msg_field));
+				 successmsg = thankyou_msg_field.getText();
+			}
+			if(requiredPayment.equalsIgnoreCase("OVRI Credit card payment"))
+			{
+				confirm_payment_button.click();
+				accept_pay_button.click();
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+				wait.until(ExpectedConditions.visibilityOf(ovri_header));
+				ovri_cardholder_name.sendKeys("aa bb");
+				ovri_cardnumber.sendKeys("5454545454545454");
+				ovri_cardexpire.sendKeys("11/29");
+				ovri_cardcvv.sendKeys("123");
+				ovri_confirmpayment.click();
+				wait.until(ExpectedConditions.visibilityOf(ovri_header));
+				JavascriptExecutor jse = (JavascriptExecutor)driver;
+				 jse.executeScript("window.scrollBy(0,200)");
+				 ovri_back_to_merchant.click();
+				 wait.until(ExpectedConditions.visibilityOf(thankyou_msg_field));
+				 successmsg = thankyou_msg_field.getText();
+			}
+			if(requiredPayment.equalsIgnoreCase("Pay by Credit / Debit Card - Option 1 - Try first"))
+			{
+				confirm_payment_button.click();
+				accept_pay_button.click();
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+				wait.until(ExpectedConditions.visibilityOf(credit_card_payment_header));
+				credit_card_card_number.sendKeys("5454545454545454");
+				credit_card_cardholder_name.sendKeys("aa bb");
+				credit_card_expire_date.sendKeys("11/29");
+				credit_card_cvv.sendKeys("123");
+				pay_now_button.click();
+				 wait.until(ExpectedConditions.visibilityOf(thankyou_msg_field));
 				 successmsg = thankyou_msg_field.getText();
 			}
 			return successmsg;

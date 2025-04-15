@@ -159,7 +159,9 @@ public class TC010_Checkoutpage extends BaseClass{
 		try {
 		   	CheckoutPage chp = new CheckoutPage(driver);
 		   	chp.waitToLoadAddNewAddressButton();
+		   	System.out.println("aa");
 		    chp.clickAddNewAddressButton();
+		    System.out.println("bb");
 		   	waitTime("3000");
 		   	chp.setFirstName("test");
 		   	chp.setLastName("test");

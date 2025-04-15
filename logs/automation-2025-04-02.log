@@ -1,0 +1,62 @@
+17:21:40.$40 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:21:44.$44 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:38.$38 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:22:38.$38 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:39.$39 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:22:40.$40 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:41.$41 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:22:41.$41 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:42.$42 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:22:42.$42 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:44.$44 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:22:44.$44 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:22:45.$45 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:24:09.$09 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:24:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:24:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:24:23.$23 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:24:29.$29 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:24:32.$32 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:24:38.$38 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:24:41.$41 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:25:45.$45 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:25:46.$46 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:26:39.$39 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:26:39.$39 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:26:40.$40 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:26:41.$41 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:26:42.$42 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:26:42.$42 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:26:43.$43 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:26:43.$43 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:26:44.$44 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:28:02.$02 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:28:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:28:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:28:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:28:24.$24 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:28:27.$27 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:28:34.$34 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:28:37.$37 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:29:43.$43 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:29:43.$43 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:30:04.$04 [main] ERROR testCases.TC002_LoginPageTest - Test Failed
+17:31:03.$03 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+17:31:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Clicked Country Dropdown
+17:31:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Selected the Country
+17:31:17.$17 [main] INFO  testCases.TC002_LoginPageTest - Clicked on the Checkbox
+17:31:23.$23 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC002 login testing ***
+17:31:26.$26 [main] INFO  testCases.TC002_LoginPageTest - Setting Login Details
+17:31:33.$33 [main] INFO  testCases.TC002_LoginPageTest - *** finished TC002 login testing ***
+17:31:35.$35 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:33:46.$46 [main] INFO  testCases.TC002_LoginPageTest - *** finished  TC011 orderPlacing testing ***
+17:33:46.$46 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:35:33.$33 [main] INFO  testCases.TC002_LoginPageTest - *** finished  TC011 orderPlacing testing ***
+17:35:33.$33 [main] INFO  testCases.TC002_LoginPageTest - *** staring TC011 orderPlacing testing ***
+17:37:48.$48 [main] INFO  testCases.TC002_LoginPageTest - *** finished  TC011 orderPlacing testing ***

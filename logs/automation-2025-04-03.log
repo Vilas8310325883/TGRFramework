@@ -1,0 +1,46 @@
+18:00:07.$07 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:00:07.$07 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+18:00:07.$07 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:00:07.$07 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+18:00:07.$07 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:00:07.$07 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC011 orderPlacing testing ***
+18:00:07.$07 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+18:03:20.$20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\codilar\eclipse-workspace\TGRFramework\master3.xml
+
+18:03:34.$34 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Country Dropdown
+18:03:34.$34 [main] INFO  testCases.TC001_AccountRegistrationTest - Selected the Country
+18:03:34.$34 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on the Checkbox
+18:03:40.$40 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest ******
+18:03:42.$42 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My account button
+18:03:42.$42 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
+18:03:43.$43 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:03:47.$47 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest ******
+18:03:47.$47 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC002 login testing ***
+18:03:50.$50 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Login Details
+18:03:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC002 login testing ***
+18:03:56.$56 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC007 PLP Add To Cart testing ***
+18:04:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PLP Add To Cart testing ***
+18:04:31.$31 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+18:05:17.$17 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+18:05:19.$19 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC004 PDP Add To Cart testing ***
+18:06:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC004 PDP Add To Cart testing ***
+18:06:11.$11 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Add To Wishlist From Minicart testing ***
+18:06:13.$13 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Add To Wishlist From Minicart testing ***
+18:06:13.$13 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove From The Wislist From Minicart testing ***
+18:06:17.$17 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Remove From The Wislist From Minicart testing ***
+18:06:17.$17 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Increase Product Quantity In Minicart testing ***
+18:06:34.$34 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Increase Product Quantity In Minicart testing ***
+18:06:34.$34 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Decrease Product Quantity In Minicart testing ***
+18:06:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Decrease Product Quantity In Minicart testing ***
+18:06:48.$48 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Apply Coupon Code In Mini Cart testing ***
+18:06:51.$51 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+18:06:51.$51 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove Coupon Code In Mini Cart testing ***
+18:06:53.$53 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+18:06:53.$53 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC009 Remove Coupon Code In Mini Cart testing ***
+18:06:57.$57 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC009 Apply Coupon Code In Mini Carttesting ***
+18:06:57.$57 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add Free Bee testing ***
+18:08:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Add Free Bee testing ***
+18:08:02.$02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Remove Free Bee testing ***
+18:08:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** finished TC006 Remove Free Bee testing ***
+18:08:14.$14 [main] INFO  testCases.TC001_AccountRegistrationTest - *** staring TC006 Add To Wishlist From Cart Page testing ***

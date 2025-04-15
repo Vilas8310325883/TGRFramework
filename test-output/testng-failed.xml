@@ -8,27 +8,9 @@
   </listeners>
   <test thread-count="5" name="ChromrTest(failed)">
     <classes>
-      <class name="testCases.TC010_Checkoutpage">
-        <methods>
-          <include name="addNewAddress"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="addAlternateNewAddress"/>
-          <include name="editNewAddress"/>
-          <include name="removeLoyaltyPointToCart"/>
-          <include name="applyLoyaltyPointToCart"/>
-        </methods>
-      </class> <!-- testCases.TC010_Checkoutpage -->
-      <class name="testCases.TC006_AddFreeBeeToCart">
-        <methods>
-          <include name="setup"/>
-          <include name="removeProductFromCart"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC006_AddFreeBeeToCart -->
       <class name="testCases.TC011_OrderPlace">
         <methods>
-          <include name="orderPlacing" invocation-numbers="0 1"/>
+          <include name="orderPlacing" invocation-numbers="3 4 5"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>

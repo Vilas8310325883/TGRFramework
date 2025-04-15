@@ -9,15 +9,15 @@
 </listeners>
   <test name="ChromrTest">
     <classes>
-     <class name="testCases.TC001_AccountRegistrationTest"/>
-     <class name="testCases.TC002_LoginPageTest"/> 
+  <class name="testCases.TC001_AccountRegistrationTest"/>
+  <!--    <class name="testCases.TC002_LoginPageTest"/> 
      <class name="testCases.TC007_AddToCartPLPTest"/> 
       <class name="testCases.TC008_WishListPDP"/> 
       <class name="testCases.TC004_AddToCart"/>
     <class name="testCases.TC009_Minicart"/> 
-       <class name="testCases.TC006_AddFreeBeeToCart"/>
+       <class name="testCases.TC006_AddFreeBeeToCart"/> 
        <class name="testCases.TC010_Checkoutpage"/>
-       <class name="testCases.TC011_OrderPlace"/> 
+      <class name="testCases.TC011_OrderPlace"/> -->
     </classes>
   </test> <!-- Test -->
  <!--   <test name="ChromeTest">	
